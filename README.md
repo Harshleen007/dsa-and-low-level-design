@@ -17,24 +17,7 @@ The focus is on **clean code**, **optimal complexity**, and **interview-oriented
 - Hashing (HashMap)
 - Sliding Window
 - Dynamic Programming
-- (More coming soon)
-
----
-
----
-
-## 🚀 Example: LRU Cache
-
-### Approach
-- Use a **HashMap** for O(1) lookup
-- Use a **Doubly Linked List** to maintain access order
-- Move recently accessed items to the front
-- Remove least recently used item from the tail
-
-### Complexity
-- `get()` → O(1)
-- `put()` → O(1)
-
+  
 ---
 
 ## 🛠 Tech Stack
