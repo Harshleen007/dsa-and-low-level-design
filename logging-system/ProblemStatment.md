@@ -1,20 +1,23 @@
-# LRU Cache
+# Logging System
 
 ## Problem
 
-Design a cache that follows the **Least Recently Used (LRU)** policy.
+Design a logging system that allows applications to log messages with different severity levels.
 
-Implement:
+The system should support:
 
-* `get(key)` → return value if present, else `-1`. Marks key as recently used.
-* `put(key, value)` → insert/update key. If capacity is exceeded, remove the least recently used key.
+* Logging messages with levels like `DEBUG`, `INFO`, `WARN`, `ERROR`
+* Filtering logs based on a minimum log level
+* Writing logs to different outputs (e.g., console, file)
 
 ## Note
 
-* Both operations should run in **O(1)** time.
+* The design should be extensible (easy to add new log outputs)
+* Focus on clean structure and separation of concerns
   
 ## What we will be using (Hint)
 
-* HashMap for O(1) lookup
-* Doubly Linked List to maintain order of usage
-* Head and Tail pointers to track most and least recently used elements
+* Enum for defining log levels
+* Interface for log appenders (e.g., console, file)
+* Strategy pattern to support multiple output types
+* Basic filtering based on log level
