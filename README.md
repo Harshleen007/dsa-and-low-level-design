@@ -21,4 +21,47 @@ The focus is on **clean code**, **optimal complexity**, and **interview-oriented
 
 ---
 
-## 📂 Project Structure
+---
+
+## 🚀 Example: LRU Cache
+
+### Approach
+- Use a **HashMap** for O(1) lookup
+- Use a **Doubly Linked List** to maintain access order
+- Move recently accessed items to the front
+- Remove least recently used item from the tail
+
+### Complexity
+- `get()` → O(1)
+- `put()` → O(1)
+
+---
+
+## 🛠 Tech Stack
+- **Language:** Kotlin
+- **Concepts:** DSA + Low-Level Design
+
+---
+
+## 🎯 Goal
+
+- Prepare for coding interviews
+- Practice core DSA patterns
+- Understand efficient design techniques
+
+---
+
+## 📈 Future Improvements
+- Add more LLD problems
+- Add detailed explanations per problem
+- Include edge cases and optimizations
+- Add unit tests
+
+---
+
+## 📌 Notes
+- Each problem is organized in its own folder
+- Code prioritizes readability and clarity
+- Focus on real interview patterns
+
+---
